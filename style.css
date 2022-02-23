@@ -1,0 +1,100 @@
+body{
+  background-color: aqua;
+  
+}
+.titulo {
+  padding: 25px;
+  width: 30%;
+  inline-size: auto;
+  margin: auto;
+  font-size: 50px;
+}
+#contenedor-principal{
+  width: 30%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+}
+#contenedor-btnPalabra{
+  width: 30%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  
+}
+#canvas{
+  width: 30%;
+  max-width: 1000px;
+}
+
+.btn{
+  background-color: cadetblue;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+  border: solid 10px black;
+  position: relative;
+  margin: 20px;
+}
+.btn:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
+  background-color: lightcoral;
+  font-size: 22px;
+  border: groove 4px red;
+}
+#btnRegistrar{
+  background-color: cadetblue;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+  border: solid 10px black;
+}
+#btnRegistrar:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
+  background-color: lightcoral;
+  font-size: 22px;
+  border: groove 4px red;
+}
+#agregarPalabra{
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+}
+.author{
+  color: black;
+  padding-top: 20px;
+  text-align: center;
+}
+/* social media icons styling */
+.social-icons {
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+  color: #008000;
+  align-items: center;
+  text-align: center;
+}
+.fab {
+  color: #000000;
+}
+
+@media screen and (max-width: 800px) {
+  body{
+    background: red;
+  }
+  .main{
+    width: 100%;
+  }
+  #canvas{
+    width: 100%;
+  }
+}

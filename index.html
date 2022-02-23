@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>El Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+ crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <div id="contenedor-principal">
+      <h1 class="titulo">El Ahorcado</h1>
+      <img class="foto1" src="imagenes/ahorcado5.png" alt="imagen 1">
+      <button class="btn" id="iniciar-juego">INICIAR JUEGO</button>
+    </div>
+    <div id="contenedor-btnPalabra">
+      <button class="btn" id="btnRegistrar">AGREGAR PALABRA</button>
+      <input id="agregarPalabra" type="text">
+    </div id="canvas">
+    <div id="canvas">
+      <canvas id="ahorcado" height="800px" width="1000px"></canvas>
+    </div>
+    <div id="jugar-nuevo">
+      <button class="btn" id="reiniciar-juego" >JUGAR DE NUEVO</button>
+    </div>
+    <footer id="footer">
+      <p class="author">Copyright © <strong> Fabio Mercado </strong></p>
+      <div class="container-fluid">
+          <!-- social media icons -->
+          <div class="social-icons mt-4">
+              <a href="https://www.instagram.com/fabiomercadon/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/fabio-mercado-26a64a209/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/fabiomercadon" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="mailto:fabiomercadon@gmail.com" target="_blank"><i class="fas fa-at"></i></a>
+          </div>
+      </div>
+  </footer>
+
+    
+    <script type="text/javascript" src="js/canvas.js"></script>
+    <script type="text/javascript" src="js/ahorcado.js"></script>
+    <script type="text/javascript" src="js/Palabras.js"></script>
+    
+  </body>
+</html>
