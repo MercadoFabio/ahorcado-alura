@@ -87,14 +87,71 @@ body{
   color: #000000;
 }
 
-@media screen and (max-width: 800px) {
-  body{
-    background: red;
+@media screen and (max-width: 480px ) {
+  body , #contenedor-principal {
+   width: auto;
+   margin: 0 auto;
   }
-  .main{
-    width: 100%;
+  .titulo{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration:underline;
+    margin-left: 45px;
   }
-  #canvas{
-    width: 100%;
+  .foto1{
+    width: 10rem;
+    border-radius: 10rem;
+    justify-content: center;
+    margin-left: 45px;
   }
+  .btn{
+    width: 10rem;
+    border-radius: 10rem;
+    justify-content: center;
+  }
+  #btnRegistrar , #agregarPalabra{
+    display: none;
+  }
+  #ahorcado{
+    width: auto;
+    height: auto;
+  }
+  #footer{
+    width: 240px;
+    font-size: 10px;
+  }
+
+}
+@media screen and (max-width: 700px ) {
+  body , #contenedor-principal ,#canvas ,#jugar-nuevo   {
+   width: 100%;
+  }
+  .titulo{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration:underline;
+   
+  }
+  .foto1{
+   margin-left: 90px;
+  }
+  #iniciar-juego{
+   width: 15rem;
+   margin: 100px;
+   bottom: 100px;
+  }
+  #btnRegistrar , #agregarPalabra{
+    display: none;
+  }
+  #ahorcado{
+    width: 500px;
+    height: 500px;
+  }
+  #footer{
+    width: 480px;
+    font-size: 15px;
+  }
+
 }
